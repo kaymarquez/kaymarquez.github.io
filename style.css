@@ -42,10 +42,10 @@ nav {
     display: flex;
     background-color: #faf8f2;
     align-items: center;
+    position: relative;
     border-bottom-style: double;
     border-bottom-width: 10px;
     border-color: #a4b398;
-    position: relative;
 }
 .crop-img {
     width: 300px;
