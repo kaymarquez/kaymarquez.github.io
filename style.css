@@ -79,3 +79,9 @@ nav {
     background: #faf8f2;
     color: #a4b398;
 }
+.wip {
+    width: 100%;
+    height: 38%;
+    background-color: #faf8f2;
+    font-size: 32px;
+}
