@@ -12,27 +12,56 @@
     <nav>
         <div class="nav-links"> 
             <ul>
-                <li><a href="#">HOME</a></li>
-                <li><a href="#">ABOUT</a></li>
-                <li><a href="#">RESUME</a></li>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about-me">ABOUT ME</a></li>
+                <li><a href="#resume">RESUME</a></li>
                 <li><a href="#">CONTACT</a></li>
             </ul>
         </div>
     </nav>
-    <section class="header">
-        <img src="headshot_cropped.jpg" alt="Image of Kaylee H. Marquez" class="crop-img"/>
+    <section class="header" id="home">
+        <img src="headshot_cropped.jpg" alt="Image of Kaylee H. Marquez" class="headshot-img"/>
         <div>
             <p style="font-size: 64px; letter-spacing: 5px; margin-top: 40px; margin-bottom: 2px">KAYLEE H. MARQUEZ</p>
-            <p style="font-size: 24px; color: #97a88a; margin-left: 2px">Computer Science Student at The University of Texas at Austin</p>
+            <p style="font-size: 24px; color: #97a88a; margin-left: 2px">Computer Science Junior at The University of Texas at Austin</p>
             <a href="https://www.linkedin.com/in/kaylee-marquez" class="fa fa-linkedin fa-lg"></a>
             <a href="https://github.com/kaymarquez" class="fa fa-github fa-lg"></a>
             <a href="mailto:kaylee.marquez11@gmail.com" class="fa fa-envelope fa-lg"></a>
         </div>
     </section>
-    <section class="wip">
-        <svg style="padding-top: 12px; margin-left: 36%; color:#97a88a; position: absolute" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-traffic-cone" width="42px" height="42px" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"> <path stroke="none" d="M0 0h24v24H0z" fill="none"/> <line x1="4" y1="20" x2="20" y2="20" /> <line x1="9.4" y1="10" x2="14.6" y2="10" /> <line x1="7.8" y1="15" x2="16.2" y2="15" /> <path d="M6 20l5 -15h2l5 15" /> </svg>
-        <p style="text-align: center; padding-top: 10px; position: relative">WORK IN PROGRESS</p>
-        <svg style="margin-top: -44px; margin-left: 61.1%; color:#97a88a; position: absolute" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-traffic-cone" width="42px" height="42px" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"> <path stroke="none" d="M0 0h24v24H0z" fill="none"/> <line x1="4" y1="20" x2="20" y2="20" /> <line x1="9.4" y1="10" x2="14.6" y2="10" /> <line x1="7.8" y1="15" x2="16.2" y2="15" /> <path d="M6 20l5 -15h2l5 15" /> </svg>
+    <section class="content" id="about-me">
+        <h1>About Me</h1>
+        <img src="hiking.jpg" alt="Image of Kaylee and her sister at Grand Teton National Park" class="hiking-img"/>
+        <p style="display: inline">
+            Hello! My name is Kaylee, and I am a third-year student at The University of Texas at Austin. Although I was originally a 
+            journalism and communication honors student, I am currently pursuing a Bachelor of Science in Computer Science, which I will 
+            complete in Spring 2024. Within computer science, I am most interested in data science and ML/AI, cloud engineering, and 
+            software engineering. Outside of computer science, my interests lie in video games and esports, music, cooking and baking, 
+            and hiking.
+        </p>
+        <br><br>
+        <p style="display: inline">
+            To tell you a little bit more about what I'm up to outside of school and work, here's what I'm currently working on:
+        </p>
+        <ul style="padding-left: 30px">
+            <br>
+            <li>Creating a neural network that predicts house prices in my hometown of Austin, Texas</li>
+            <li>Learning 한국어</li>
+            <li>Studying for my AWS Cloud Practioner exam so I can begin working toward my Solutions Architect certification</li>
+        </ul><br>
+        <p style="display: inline">
+            <b>I am currently seeking internship opportunities for Summer 2023</b> in any of my areas of interest, but I am 
+            willing to explore other fields as well.
+        </p>
+    </section>
+    <section class="content" id="resume">
+        <h1>Resume</h1>
+        <button class="download-button">
+            <a href="resume.pdf" download="KayleeMarquez_Resume.pdf">
+                <i class="fa fa-download"></i>
+                Download Resume
+            </a>
+        </button>
     </section>
 </body>
 </html>
