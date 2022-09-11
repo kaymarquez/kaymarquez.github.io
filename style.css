@@ -58,10 +58,6 @@ nav {
     clear: left;
     vertical-align: middle;
 }
-/*.column {
-    float: left;
-    width: 33.33%;
-}*/
 .fa {
     padding: 20px;
     width: 20px;
@@ -102,17 +98,20 @@ h1 {
     background: #a4b398;
     padding-right: 25px;
     border: none;
-    border-radius: 5%;
+    border-radius: 8px;
 }
 .download-button:hover {
     background: #97a88a;
+    transition: 0.35s;
 }
 .fa-download {
     color: #faf8f2;
     font-size: 1.2em;
     padding-right: 10px;
+    text-decoration: none; 
+    font-size: 16px;
 }
-a:link, a:visited, a:hover, a:active {
+a.download:link, a.download:visited, a.download:hover, a.download:active {
     color: #faf8f2;
     text-decoration: none; 
     font-size: 16px;
